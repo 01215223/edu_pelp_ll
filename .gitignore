@@ -3,3 +3,4 @@ __pycache__/
 
 # produkt pośredni budowy PDF (generowany przez build.py --pdf-src)
 kompendium/_pdf_source.html
+szybkie/_pdf_source.html

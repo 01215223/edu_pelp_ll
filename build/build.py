@@ -157,13 +157,22 @@ def boxes_and_figures(text: str) -> str:
             alt = re.sub(r"\s{2,}", " ", alt).replace('"', "&quot;").strip()
             out.append(
                 f'<figure><img src="{path}" alt="{alt}" loading="lazy">'
-                f"<figcaption>{cap}</figcaption></figure>"
+                f"<figcaption>{md_inline(cap)}</figcaption></figure>"
             )
             continue
         if line.strip() == ":::":
             if stack:
                 stack.pop()
                 out.append("</div>")
+            continue
+        # bloki wzorów blokowych muszą stać we własnym akapicie
+        if line.strip().startswith("$$"):
+            prev = next((x for x in reversed(out) if x.strip()), "")
+            if prev and not prev.strip().startswith("$$"):
+                out.append("")
+        if re.match(r"^\s*\$\$.+\$\$\s*$", line):
+            out.append(line)
+            out.append("")
             continue
         # listy i cytaty muszą zaczynać się od pustej linii, inaczej Markdown
         # wciąga je do poprzedniego akapitu (widoczne jako literalne "* ")
@@ -554,7 +563,7 @@ def build(mode: str, out_path: str) -> str:
             if name.endswith(".svg"):
                 out_png = os.path.join(png_dir, name[:-4] + ".png")
                 subprocess.run(
-                    ["node", "/home/user/buildtools/svg2png.js",
+                    ["node", os.path.join(HERE, "svg2png.js"),
                      os.path.join(KOMP, "figury", name)], check=True,
                     stdout=subprocess.DEVNULL)
                 shutil.move("/tmp/" + name[:-4] + ".png", out_png)

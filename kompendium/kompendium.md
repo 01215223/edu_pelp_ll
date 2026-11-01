@@ -30,6 +30,10 @@ W repozytorium były wyłącznie **klucze odpowiedzi** (35 plików PDF, 2019–2
 Obok tego pliku (`index.html`, wersja do przeglądania z wyszukiwarką i filtrowaniem banku pytań) leży **`kompendium.pdf`** — 43-stronicowy wydruk A4 z tym samym tekstem, gotowy do druku lub czytania na telefonie. Oba pliki powstają z jednego źródła (`kompendium.md`), więc treść jest identyczna.
 :::
 
+::: ciekawostka Siostrzany dokument: samo szybkie liczenie
+Do tego kompendium dołączony jest drugi, krótszy plik — **`szybkie/szybkie.pdf`** (14 stron): *Szybkie rozwiązywanie obwodów*. Zamiast teorii są tam **archetypy zadań z Testu 1** (opór zastępczy ze źródłem sterowanym, Thévenin–Norton, moc maksymalna, PPK, superpozycja, wzmacniacz operacyjny, punkt pracy z wykresu, rozpoznawanie połączeń), każde z wycinkiem oryginalnego zadania z klucza, rachunkiem krok po kroku i listą pułapek. Kompendium odpowiada na pytanie *dlaczego tak*, tamten dokument — *jak to policzyć w 60 sekund*.
+:::
+
 ::: metoda Jak pracować z tym tekstem
 1. Przeczytaj rozdział teoretyczny i **przelicz samodzielnie** każdy wzór na prostym przykładzie liczbowym.
 2. Zajrzyj do §12, odfiltruj pytania z danego tematu (jest tam wyszukiwarka), przeczytaj treści i ustal, *jaki schemat rozumowania* kryje się za pytaniem.

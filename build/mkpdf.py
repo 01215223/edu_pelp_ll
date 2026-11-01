@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Buduje kompendium/kompendium.pdf z kompendium/_pdf_source.html.
+"""Buduje PDF z pliku HTML przygotowanego dla MuPDF Story.
 
-PDF powstaje przez MuPDF Story (PyMuPDF), więc potrzebna jest wersja HTML,
-w której wzory są obrazkami PNG (matplotlib mathtext) — generuje ją
-`python3 build.py --pdf-src`. Rysunki są wstawiane jako PNG z figury/png.
+PDF powstaje przez PyMuPDF Story, więc potrzebna jest wersja HTML, w której wzory
+są obrazkami PNG (matplotlib mathtext):
+    kompendium:  build.py --pdf-src   -> kompendium/_pdf_source.html
+    szybkie:     build_szybkie.py     -> szybkie/_pdf_source.html
+
+Użycie:
+    python3 mkpdf.py                       # kompendium -> kompendium/kompendium.pdf
+    python3 mkpdf.py SRC.html OUT.pdf KAT  # dowolny dokument (KAT = katalog z obrazkami)
 """
 from __future__ import annotations
 
@@ -14,9 +19,7 @@ import sys
 import pymupdf
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-KOMP = os.path.join(HERE, "..", "kompendium")
-SRC = os.path.join(KOMP, "_pdf_source.html")
-OUT = os.path.join(KOMP, "kompendium.pdf")
+ROOT = os.path.dirname(HERE)
 
 CSS = """
 @page { size: A4; }
@@ -54,29 +57,39 @@ summary { font-weight: bold; font-size: 8.5pt; }
 """
 
 
-def main() -> int:
-    if not os.path.exists(SRC):
-        print("BRAK _pdf_source.html — uruchom najpierw: python3 build.py --pdf-src")
-        return 1
-    html = open(SRC, encoding="utf-8").read()
+def make(src_html: str, out_pdf: str, base_dir: str, css: str = CSS) -> str:
+    if not os.path.exists(src_html):
+        raise SystemExit(f"BRAK {src_html} — najpierw zbuduj źródło PDF")
+    html = open(src_html, encoding="utf-8").read()
     body = html[html.find("<main>") + 6: html.find("</main>")]
     body = re.sub(r"<button[^>]*>.*?</button>", "", body, flags=re.S)
 
-    story = pymupdf.Story(html=f"<body>{body}</body>", user_css=CSS,
-                          archive=pymupdf.Archive(KOMP))
+    story = pymupdf.Story(html=f"<body>{body}</body>", user_css=css,
+                          archive=pymupdf.Archive(base_dir))
     mediabox = pymupdf.paper_rect("a4")
     where = mediabox + (36, 32, -36, -32)
 
-    writer = pymupdf.DocumentWriter(OUT + ".raw")
+    raw = out_pdf + ".raw"
+    writer = pymupdf.DocumentWriter(raw)
     story.write(writer, lambda n, filled: (mediabox, where, pymupdf.Identity))
     writer.close()
 
-    doc = pymupdf.open(OUT + ".raw")
-    doc.save(OUT, deflate=True, garbage=4, clean=True)
-    n = doc.page_count
+    doc = pymupdf.open(raw)
+    doc.save(out_pdf, deflate=True, garbage=4, clean=True)
+    n, pages = doc.page_count, doc.page_count
     doc.close()
-    os.remove(OUT + ".raw")
-    print(f"OK -> {OUT} ({n} stron, {os.path.getsize(OUT)/1e6:.1f} MB)")
+    os.remove(raw)
+    print(f"OK -> {out_pdf} ({pages} stron, {os.path.getsize(out_pdf)/1e6:.1f} MB)")
+    return out_pdf
+
+
+def main() -> int:
+    if len(sys.argv) >= 4:
+        make(sys.argv[1], sys.argv[2], sys.argv[3])
+    else:
+        komp = os.path.join(ROOT, "kompendium")
+        make(os.path.join(komp, "_pdf_source.html"),
+             os.path.join(komp, "kompendium.pdf"), komp)
     return 0
 
 

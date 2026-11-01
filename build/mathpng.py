@@ -140,7 +140,7 @@ if __name__ == "__main__":
     for i, t in enumerate(data):
         disp = t.startswith("$$")
         img = render(t)
-        out.append(f'<span class="mathblock">{img}</span>' if disp else img)
+        out.append(f'<div class="mathblock">{img}</div>' if disp else img)
         if i % 100 == 0:
             print(i, file=sys.stderr)
     flush()
