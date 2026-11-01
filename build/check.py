@@ -15,9 +15,13 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-KOMP = os.path.join(HERE, "..", "kompendium")
+ROOT = os.path.join(HERE, "..")
+KOMP = os.path.join(ROOT, "kompendium")
 MD = os.path.join(KOMP, "kompendium.md")
 HTML = os.path.join(KOMP, "index.html")
+SZYB = os.path.join(ROOT, "szybkie")
+SZYB_MD = os.path.join(SZYB, "szybkie.md")
+SZYB_HTML = os.path.join(SZYB, "index.html")
 
 problems: list[str] = []
 
@@ -75,6 +79,9 @@ def main() -> int:
         if href not in ids:
             problems.append(f"spis treści wskazuje nieistniejący nagłówek: {href}")
 
+    # ----------------------------------------- 6. dokument „szybkie rozwiązywanie”
+    check_szybkie()
+
     # ----------------------------------------------------------------- raport
     n_boxes = body.count('class="box')
     print("testów: %d, pytań: %d, rysunków: %d, ramek: %d, wzorów: %d"
@@ -86,6 +93,60 @@ def main() -> int:
         return 1
     print("OK — brak problemów.")
     return 0
+
+
+def check_szybkie() -> None:
+    """Sprawdza szybkie/szybkie.md + HTML (odsyłacze do plików, ramki, wzory)."""
+    if not os.path.exists(SZYB_MD):
+        problems.append("brak szybkie/szybkie.md")
+        return
+    md = open(SZYB_MD, encoding="utf-8").read()
+    html = open(SZYB_HTML, encoding="utf-8").read()
+    body = html[html.find("<main>"): html.find("</main>")]
+
+    if md.count(":::") % 2:
+        problems.append("szybkie: niedomknięte ramki :::")
+    if ":::" in body:
+        problems.append("szybkie: literalne ::: w treści")
+    if "\x00" in body:
+        problems.append("szybkie: niepodmienione placeholdery wzorów")
+    if 'class="katex-error"' in html or 'class="math-error"' in html:
+        problems.append("szybkie: wzór, którego KaTeX nie potrafi zrenderować")
+    txt = re.sub(r"<[^>]+>", " ", body)
+    if "**" in txt:
+        problems.append("szybkie: nieprzetworzone pogrubienia (**)")
+    if "`" in txt:
+        problems.append("szybkie: nieprzetworzone `code` w treści")
+    if "$" in txt:
+        problems.append("szybkie: surowy $ w treści (wzór poza KaTeX-em)")
+
+    # odsyłacze do wycinków zadań + istnienie plików
+    for m in re.finditer(r"^::: figura (\S+)", md, re.M):
+        src = m.group(1)
+        for sub in (SZYB, KOMP):
+            if os.path.exists(os.path.join(sub, src)):
+                break
+        else:
+            problems.append(f"szybkie: brak pliku wycinka: {src}")
+    figs_md = len(re.findall(r"^::: figura", md, re.M))
+    figs_html = body.count("<figure>")
+    if figs_md != figs_html:
+        problems.append(f"szybkie: rysunków w MD: {figs_md}, w HTML: {figs_html}")
+    used = set(re.findall(r"zadania/([\w-]+\.png)", md))
+    on_disk = set(os.listdir(os.path.join(SZYB, "zadania")))
+    for extra in sorted(on_disk - used):
+        problems.append(f"szybkie: nieużywany wycinek zadania/{extra}")
+    for missing in sorted(used - on_disk):
+        problems.append(f"szybkie: użyty, ale nieistniejący wycinek zadania/{missing}")
+
+    n_boxes = len(re.findall(r'<div class="box ', body))
+    if n_boxes != body.count("box-title"):
+        problems.append("szybkie: ramka bez tytułu")
+    if body.count('class="mathblock"') > 0 and "mathimg" not in body:
+        problems.append("szybkie: blok wzoru bez obrazka")
+
+    n_katex = html.count('class="katex"')
+    print(f"szybkie: ramek {n_boxes}, rysunków {figs_html}, wzórów {n_katex}")
 
 
 if __name__ == "__main__":
