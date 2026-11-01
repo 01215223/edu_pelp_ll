@@ -1,0 +1,2570 @@
+[
+{
+"file": "PELP1_19Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2019",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. 2 Ω 10 Ω 6 V 1 A Jeżeli w obwodzie przedstawionym na rysunku opór 2 Ωzastąpimy zwarciem, to jak zmieni się wartość bezwzględna napięcia na oporze 10 Ω? ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_19Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2019",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. E I J R Jaki jest wkład do natężenia prądu I pochodzący od źródła napięciowego E w meto- dzie superpozycji? ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_19Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2019",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. 10 V 4 Ω 12 Ω 6 Ω Jaka jest wartość bezwzględna siły elektromotorycznej źródła zastępczego Thévenina równoważnego dwójnikowi przedstawionemu na rysunku? ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_19Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2019",
+"l": "D",
+"a": [
+1,
+2,
+3
+],
+"stem": "1p. I2 I1 I3 5 V 10 V 3 Ω 7 Ω 10 Ω A Które równanie opisuje lewe oczko? ",
+"lab": "Równania Kirchhoffa (węzeł / oczko)"
+},
+{
+"file": "PELP1_19Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2019",
+"l": "E",
+"a": [
+1
+],
+"stem": "2p. 10 V I 10 µF 1 µF 10 mH 50 mH 10 kΩ 10 kΩ 4 kΩ 1 kΩ Ile wynosi moc oddawana przez źródło napięcio- we w obwodzie pokazanym na rysunku? ",
+"lab": "Moc w połączeniach szereg./równol."
+},
+{
+"file": "PELP1_19Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2019",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Które z poniższych stwierdzeń jest zawsze prawdziwe dla różnych co do wartości oporów połączonych równolegle w obwodzie prądu stałego? ",
+"lab": "Moc w połączeniach szereg./równol."
+},
+{
+"file": "PELP1_19Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2019",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. 12 V 6 Ω 4 Ω 3 Ω 12 Ω 16 Ω Jakie jest natężenie prądu płynącego przez opór 3 Ω? ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_19Z_B_1_key",
+"hdr": "Test 2 PELP1, 11.12.2019",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Pomiar oporu metodą techniczną (przez pomiar napięcia i natężenia prądu oraz wykorzystanie prawa Ohma) jest pomiarem: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_19Z_B_1_key",
+"hdr": "Test 2 PELP1, 11.12.2019",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia niepewność graniczną przyrządu cyfrowego w funkcji modułu wartości zmierzonej? ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_19Z_B_1_key",
+"hdr": "Test 2 PELP1, 11.12.2019",
+"l": "C",
+"a": [
+1
+],
+"stem": "2p. Który woltomierz da najmniejszą niepewność pomiaru napięcia stałego 12 V? ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_19Z_B_1_key",
+"hdr": "Test 2 PELP1, 11.12.2019",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Do czego służy tryb AC sprzężenia wejścia oscyloskopu? ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_19Z_B_1_key",
+"hdr": "Test 2 PELP1, 11.12.2019",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Do pomiaru oporu rzędu 10 kΩmetodą techniczną użyto amperomierza o oporze wewnętrznym 1 Ωi woltomierza o oporze wewnętrznym 1 MΩ, dzieląc odpowiednio wskazania obu przyrządów zgodnie z prawem Ohma. Jak należy połączyć te przyrządy, aby błąd względny metody pobrania stanu obiektu badanego był jak najmniejszy (co do modułu)? Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 PELP1, 11.12.2019 strona 2/2 ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_19Z_B_1_key",
+"hdr": "Test 2 PELP1, 11.12.2019",
+"l": "F",
+"a": [
+1
+],
+"stem": "2p. A B C D 2R R R 2R 2R R Dla którego węzła układu pomiar jego napięcia względem ma- sy woltomierzem o skończonym oporze wewnętrznym będzie obarczony najmniejszym (co do modułu) błędem metody po- brania wartości wielkości mierzonej? ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_19Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 08.01.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Który z pomiarównie jest pomiarem pośrednim prostym? ",
+"lab": "Rodzaje i metody pomiaru"
+},
+{
+"file": "PELP1_19Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 08.01.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia względną niepewność graniczną przyrządu cyfrowego w funkcji modułu wartości zmie- rzonej? ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_19Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 08.01.2020",
+"l": "C",
+"a": [
+1
+],
+"stem": "2p. Który woltomierz da najmniejszą niepewność graniczną pomiaru napięcia stałego 18 V? ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_19Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 08.01.2020",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Do czego służy tryb AC LINE wyzwalania oscyloskopu? ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_19Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 08.01.2020",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Do pośredniego pomiaru mocy wydzielanej w oporze rzędu 100 Ωużyto amperomierza o oporze wewnętrznym 1 Ωi woltomierza o oporze wewnętrznym 1 MΩ, mnożąc odpowiednio wskazania obu przyrządów zgodnie z deﬁ- nicją mocy dla prądu stałego. Jak należy połączyć te przyrządy, aby błąd względny metody pobrania stanu obiektu badanego był jak najmniejszy co do modułu? Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 popr. PELP1, 08.01.2020 strona 2/2 ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_19Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 08.01.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "2p. 2R R R R 2R 2R R A B C D Zamiast wybranego pogrubionego odcinka prze- wodnika idealnego podłączono amperomierz o niezerowym oporze wewnętrznym w celu po- miaru prądu płynącego tym odcinkiem. W któ- rym przypadku wprowadzi on największy co do modułu błąd względny metody pobrania stanu obiektu badanego? ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie, gdzie R̸ = 0, napięcie U na źródle prą- dowym: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Jeśli opory R1 i R2 mają skończoną wartość to napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Połączenie równoległe występuje między parami elementów: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Elementem równoważnym zaciskowo dwójniko- wi AB (po lewej) jest rzeczywiste źródło prądowe AB o parametrach: ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. Dwójnikiem bezźródłowym jest dwójnik: ",
+"lab": "Dwójnik bezźródłowy / źródłowy"
+},
+{
+"file": "PELP1_20L_A_1_klucz",
+"hdr": "Test 1 PELP1, 20.05.2020",
+"l": "H",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby wydzielała się w nim mak- symalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_20L_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 10.06.2020",
+"l": "A",
+"a": [
+1,
+2
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_20L_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 10.06.2020",
+"l": "B",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie, gdzie R̸ = 0, napięcie U na źródle prą- dowym: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_20L_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 10.06.2020",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Jeśli opory R1 i R2 mają skończoną wartość to napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_20L_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 10.06.2020",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Połączenie równoległe występuje między parami elementów: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_20L_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 10.06.2020",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Elementem równoważnym zaciskowo dwójniko- wi AB (po lewej) jest rzeczywiste źródło napię- ciowe AB o parametrach: ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_20L_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 10.06.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby wydzielała się w nim mak- symalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_20L_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 10.06.2020",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. D to dioda idealna zwarciowo-rozwarciowa. Cha- rakterystyka dwójnika AB przedstawiona jest na rysunku: ",
+"lab": "Charakterystyka dwójnika z diodą idealną"
+},
+{
+"file": "PELP1_20L_B_1_klucz",
+"hdr": "Test 2 PELP1, 27.05.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność standardowa pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_20L_B_1_klucz",
+"hdr": "Test 2 PELP1, 27.05.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze napięć względny błąd metody pobrania, związany ze skończoną rezystancją woltomierza, jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_20L_B_1_klucz",
+"hdr": "Test 2 PELP1, 27.05.2020",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Przy braku innych zmian, zwiększenie liczby bitów przetwornika ADC oscyloskopu cyfrowego z 8 na 12 skutkuje: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_20L_B_1_klucz",
+"hdr": "Test 2 PELP1, 27.05.2020",
+"l": "D",
+"a": [
+1,
+2
+],
+"stem": "2p. Pomiar napięcia U = 5 V będzie obarczony największą niepewnością graniczną, gdy zostanie wykonany wolto- mierzem ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_20L_B_1_klucz",
+"hdr": "Test 2 PELP1, 27.05.2020",
+"l": "E",
+"a": [
+1,
+2
+],
+"stem": "1p. A V W przedstawionym układzie do pomiaru rezystancji R: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_20L_B_1_klucz",
+"hdr": "Test 2 PELP1, 27.05.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Wykonano cztery pomiary tego samego napięcia U i otrzymano wyniki: 10, 80 V, 11, 10 V, 10, 90 V, 11, 20 V. Empiryczne odchylenie standardowe ",
+"lab": "Statystyka serii pomiarów"
+},
+{
+"file": "PELP1_20L_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 10.06.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność rozszerzona pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_20L_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 10.06.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze prądu względny błąd metody po- brania, związany ze niezerową rezystancją amperomierza, jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_20L_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 10.06.2020",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Przy braku innych zmian, zwiększenie częstości próbkowania przetwornika ADC oscyloskopu cyfrowego skutkuje: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_20L_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 10.06.2020",
+"l": "D",
+"a": [
+1,
+2
+],
+"stem": "2p. Pomiar napięcia U = 10 V będzie obarczony największą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_20L_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 10.06.2020",
+"l": "E",
+"a": [
+1,
+2
+],
+"stem": "1p. A V W przedstawionym układzie do pomiaru oporu R: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_20L_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 10.06.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Mierzone pośrednio napięcie U opisane jest modelem U = E −RI. Zmierzono wielkości składowe: E = 10 V, R = 1 kΩ, I = 5 mA. Niepewność standardowa względna każdego z tych pomiarów składowych wynosi 1 %. Niepewność ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_20Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 04.11.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Które stwierdzenie jest prawdziwe dla każdego elementu skupionego? ",
+"lab": "Elementy skupione – założenia"
+},
+{
+"file": "PELP1_20Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 04.11.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Która charakterystyka napięciowo-prądowa opisuje opór nieliniowy? ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_20Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 04.11.2020",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. R1 R4 R3 R2 R5 W układzie pokazanym na rysunku: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_20Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 04.11.2020",
+"l": "D",
+"a": [
+1
+],
+"stem": "2p. i [mA] u [V] −1 1 1 −1 0 Opór nieliniowy o charakterystyce pokazanej na rysunku podłączo- no do rzeczywistego źródła prądowego o wydajności prądowej 3 mA i przewodności wewnętrznej 1 mS. Opór statyczny i dynamiczny w punkcie pracy wynoszą odpowiednio: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_20Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 04.11.2020",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. gu E u R1 R2 B A Ile wynosi SEM zastępczego źródła Thévenina dwójnika o zaciskach A–B? ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_20Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 04.11.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. e1 j2 u R2 R1 e2 j1 Ile wynosi wkład (wynikający z zasady superpozycji) do napię- cia u pochodzący od źródła e2? Dane: e1 = 1 V, e2 = 2 V, j1 = 1 A, j2 = 2 A, R1 = 1 kΩ, R2 = 2 kΩ. ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_20Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 04.11.2020",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. i B A R2 R1 ri J Ile wynosi moc dysponowana dwójnika o zaciskach A–B? Dane: J = 4 mA, R1 = 1 kΩ, R2 = 2 kΩ, r = 1 kΩ. Wskazówka: Należy skorzystać z twier- dzenia Nortona. ",
+"lab": "Moc dysponowana dwójnika"
+},
+{
+"file": "PELP1_20Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 16.12.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Które stwierdzenie jest prawdziwe dla każdego elementu skupionego? ",
+"lab": "Elementy skupione – założenia"
+},
+{
+"file": "PELP1_20Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 16.12.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Która charakterystyka napięciowo-prądowa opisuje opór nieliniowy? ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_20Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 16.12.2020",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. R1 R4 R3 R2 R5 W układzie pokazanym na rysunku: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_20Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 16.12.2020",
+"l": "D",
+"a": [
+1
+],
+"stem": "2p. −1 1 1 −1 0 i [mA] u [V] Opór nieliniowy o charakterystyce pokazanej na rysunku podłączono do rzeczywistego źródła napięciowego o SEM 3 V i oporze wewnętrz- nym 1 kΩ. Opór statyczny i dynamiczny w punkcie pracy wynoszą od- powiednio: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_20Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 16.12.2020",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. i B A R2 R1 ri J Ile wynosi wydajność prądowa zastępczego źródła Nortona dwójnika o zaci- skach A–B? ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_20Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 16.12.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. j1 e1 R1 R2 e2 j2 i Ile wynosi wkład (wynikający z zasady superpozycji) do prądu i pochodzący od źródła j2? Dane: e1 = 1 V, e2 = 2 V, j1 = 1 A, j2 = 2 A, R1 = 1 kΩ, R2 = 2 kΩ. ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_20Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 16.12.2020",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. gu E u R1 R2 B A Ile wynosi moc dysponowana dwójnika o zaciskach A–B? Dane: E = 12 V, R1 = 1 kΩ, R2 = 2 kΩ, g = 1 2 mS. Wskazówka: Należy skorzystać z twier- dzenia Thévenina. ",
+"lab": "Moc dysponowana dwójnika"
+},
+{
+"file": "PELP1_20Z_B_1_key",
+"hdr": "Test 2 PELP1, 09.12.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Pomiar oporu za pomocą mostka Wheatstone’a to pomiar metodą: ",
+"lab": "Mostek Wheatstone’a"
+},
+{
+"file": "PELP1_20Z_B_1_key",
+"hdr": "Test 2 PELP1, 09.12.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Woltomierz cyfrowy o granicznej niepewności opisanej jako 0,8% (wielkości mierzonej) plus 0,09 V pracuje na za- kresie pomiarowym 0 . . . 20 V. Dla jakiego napięcia mierzonego względna graniczna niepewność pomiaru będzie równa 2%? ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_20Z_B_1_key",
+"hdr": "Test 2 PELP1, 09.12.2020",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. W celu pomiaru mocy wydzielanej w oporze R zmierzono ten opór (z niepewnością względną 0,5%) oraz natężenie płynącego przezeń prądu I (z niepewnością względną 0,5%), a następnie obliczono moc ze wzoru P = RI2. Ile wynosi niepewność względna pomiaru mocy obliczona metodą różniczki zupełnej? ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_20Z_B_1_key",
+"hdr": "Test 2 PELP1, 09.12.2020",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Której cechy nie ma oscyloskop analogowy lub jest ona bardzo trudna do uzyskania? ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_20Z_B_1_key",
+"hdr": "Test 2 PELP1, 09.12.2020",
+"l": "E",
+"a": [
+1,
+2
+],
+"stem": "1p. µA E Rx R0 R2 R1 Rw U1 U2 U I →0 W mostku Wheatstone’a do pomiaru oporu Rx zastosowano opornik dekadowy R0 = 0 . . . 10 kΩ. Jak należy dobrać opo- ry R1 i R2, aby uzyskać zakres pomiarowy 0 . . . 20 MΩ? ",
+"lab": "Mostek Wheatstone’a"
+},
+{
+"file": "PELP1_20Z_B_1_key",
+"hdr": "Test 2 PELP1, 09.12.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "2p. Mamy do dyspozycji woltomierz o oporze wewnętrznym RV = 10 MΩoraz amperomierz o oporze wewnętrznym RA = 10 Ω. Która metoda pomiarowa da najmniejszy co do modułu błąd systematyczny pomiaru oporu Rx = 10 kΩ? ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_20Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 16.12.2020",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Pomiar oporu metodą techniczną to pomiar metodą: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_20Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 16.12.2020",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Woltomierz analogowy klasy 0,1 pracuje na zakresie pomiarowym 0 . . . 30 V. Dla jakiego napięcia mierzonego względna graniczna niepewność pomiaru będzie równa 2%? ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_20Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 16.12.2020",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. W celu pomiaru mocy wydzielanej w oporze R zmierzono ten opór (z niepewnością względną 0,5%) oraz natężenie płynącego przezeń prądu I (z niepewnością względną 0,5%), a następnie obliczono moc ze wzoru P = RI2. Ile wynosi w przybliżeniu niepewność względna pomiaru mocy obliczona metodą przeznaczoną dla pomiarów nieskorelowanych, inną niż metoda różniczki zupełnej? ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_20Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 16.12.2020",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Której cechy nie ma oscyloskop cyfrowy lub jest ona bardzo trudna do uzyskania? ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_20Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 16.12.2020",
+"l": "E",
+"a": [
+1,
+2,
+3,
+4
+],
+"stem": "1p. µA E Rx R0 R2 R1 Rw U1 U2 U I →0 W mostku Wheatstone’a do pomiaru oporu Rx zastosowano opornik dekadowy R0 = 0 . . . 10 kΩ. Jak należy dobrać opo- ry R1 i R2, aby uzyskać zakres pomiarowy 0 . . . 20 Ω? ",
+"lab": "Mostek Wheatstone’a"
+},
+{
+"file": "PELP1_20Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 16.12.2020",
+"l": "F",
+"a": [
+1
+],
+"stem": "2p. Mamy do dyspozycji woltomierz o oporze wewnętrznym RV = 10 MΩoraz amperomierz o oporze wewnętrznym RA = 10 Ω. Która metoda pomiarowa da najmniejszy co do modułu błąd systematyczny pomiaru oporu Rx = 3,3 kΩ? ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "A",
+"a": [
+1,
+2
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Element nieliniowy o charakterystyce przedstawionej na rysunku pod- łączono do idealnego źródła napięciowego o wartości 2 V, tak, że przez element płynie prąd. Opór statyczny i dynamiczny w punkcie pracy wy- noszą: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "C",
+"a": [
+1,
+2,
+3
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów na- pięcie U na źródle prądowym J1: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "D",
+"a": [
+1,
+2
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i G > 0, na napięcie U wpływa wartość oporu: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Połączenie równoległe występuje między parami elementów: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Wydajność prądowa JN w źródle Nortona rów- noważnym dwójnikowi AB wynosi: ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa napięcia U pochodząca od źródła E1 wynosi:: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_21L_A_1_klucz",
+"hdr": "Test 1 PELP2, 24.03.2021",
+"l": "H",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby wydzielała się w nim mak- symalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Dla k > 1 opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Element nieliniowy o charakterystyce przedstawionej na rysunku pod- łączono do idealnego źródła prądowego o wydajności 3 mA, tak, że przez element płynie prąd. Opór statyczny i dynamiczny w punkcie pra- cy wynoszą w przybliżeniu: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "C",
+"a": [
+1,
+2,
+3
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów na- pięcie U na źródle prądowym J1: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość, na napięcie U wpływa wartość oporu: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Połączenie równoległe występuje między parami elementów: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Siła elektromotoryczna ET w źródle Thevenina równoważnym dwójnikowi AB wynosi: ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa prądu I pochodząca od źródła J1 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_21L_A_2_klucz",
+"hdr": "Test 1 popr. PELP2, 19.05.2021",
+"l": "H",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby wydzielała się w nim mak- symalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_21L_B_1_klucz",
+"hdr": "Test 2 PELP1, 05.05.2021",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność graniczna pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_21L_B_1_klucz",
+"hdr": "Test 2 PELP1, 05.05.2021",
+"l": "B",
+"a": [
+1,
+2,
+3,
+4
+],
+"stem": "2p. Przy bezpośrednim pomiarze prądów I1, I2, I3, I4 względny błąd me- tody pobrania, związany z niezerową rezystancją amperomierza, jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_21L_B_1_klucz",
+"hdr": "Test 2 PELP1, 05.05.2021",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Badany układ powinien generować przebieg napięcia o powtarzalnym, ale skomplikowanym kształcie. Aby stwier- dzić czy w jego generacji występują rzadkie anomalie i jaki maja charakter najlepiej użyć oscyloskopu: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_21L_B_1_klucz",
+"hdr": "Test 2 PELP1, 05.05.2021",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Woltomierz cyfrowy wskazał wartość 1,8261 V, a obliczona według wzorów podanych w specyﬁkacji niepewność graniczna wyniosła przed zaokrągleniem 0,04131… V. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_21L_B_1_klucz",
+"hdr": "Test 2 PELP1, 05.05.2021",
+"l": "E",
+"a": [
+1,
+2,
+3
+],
+"stem": "2p. Pomiar napięcia U = 10 V będzie obarczony najmniejszą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_21L_B_1_klucz",
+"hdr": "Test 2 PELP1, 05.05.2021",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia niepewność standardową przyrządu cyfrowego w funkcji modułu wartości zmierzonej? Zakres pomiarowy nie jest zmieniany. Zakładamy równomierny rozkład niepewności. ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_21L_B_1_klucz",
+"hdr": "Test 2 PELP1, 05.05.2021",
+"l": "G",
+"a": [
+1,
+2
+],
+"stem": "1p. Mierzona pośrednio moc dysponowana źródła opisana jest wzorem P = E2 T 4Rw . Zmierzono wielkości składowe: ET = 4 V, Rw = 2 kΩ, a wyniki pomiarów są nieskorelowane. Niepewność standardowa względna każdego z pomiarów składowych wynosi 5%. Przed ostatecznym zaokrągleniem niepewność ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_21L_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 19.05.2021",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność względna pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_21L_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 19.05.2021",
+"l": "B",
+"a": [
+1,
+2,
+3,
+4
+],
+"stem": "2p. Przy bezpośrednim pomiarze napięć względny błąd metody pobrania, związany ze skończoną rezystancją woltomierza, jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_21L_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 19.05.2021",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Badany układ generuje okresowo powtarzany impuls o bardzo krótkim czasie trwania. Aby określić czas narastania impulsu najlepiej użyć oscyloskopu: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_21L_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 19.05.2021",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Amperomierz cyfrowy wskazał wartość 1,226 mA, a obliczona według wzorów podanych w jego specyﬁkacji nie- pewność graniczna wyniosła przed zaokrągleniem 0,1631… mA. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_21L_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 19.05.2021",
+"l": "E",
+"a": [
+1,
+2,
+3
+],
+"stem": "2p. Pomiar prądu I = 2 mA będzie obarczony największą niepewnością graniczną, gdy zostanie wykonany ampero- mierzem ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_21L_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 19.05.2021",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia standardową niepewność względną przyrządu cyfrowego w funkcji modułu wartości zmierzonej? Przyjąć równomierny rozkład błędu i ustalony zakres pomiarowy przyrządu. ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_21L_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 19.05.2021",
+"l": "G",
+"a": [
+1,
+2
+],
+"stem": "1p. Mierzona pośrednio moc dysponowana źródła Nortona opisana jest wzorem P = J2 NRw 4 . Zmierzono wielkości składowe: JN = 2 mA, Rw = 1 kΩ. Niepewność standardowa względna każdego z nieskorelowanych pomiarów składowych wynosi 1%. Przed ostatecznym zaokrągleniem obliczona niepewność ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów, napięcie U na źródle prądowym J: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość, na napięcie U wpływa wartość oporu: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa napięcia U pochodząca od źródła J wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_21Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 03.11.2021",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. D to dioda idealna zwarciowo-rozwarciowa. Cha- rakterystyka dwójnika AB przedstawiona jest na rysunku: ",
+"lab": "Charakterystyka dwójnika z diodą idealną"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "A",
+"a": [
+1,
+2
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów na- pięcie U na źródle prądowym J2: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "D",
+"a": [
+1,
+2
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość, na napięcie U wpływa wartość oporu: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenia I1 i I2 są równe. Jaką mają wartość? ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa prądu I pochodząca od źródła J1 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_21Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 22.12.2021",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. D to dioda idealna zwarciowo-rozwarciowa. Cha- rakterystyka dwójnika AB przedstawiona jest na rysunku: ",
+"lab": "Charakterystyka dwójnika z diodą idealną"
+},
+{
+"file": "PELP1_21Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 15.12.2021",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność standardowa pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_21Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 15.12.2021",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze prądów I1, I2, I3, I4 względny błąd me- tody pobrania, związany z niezerową rezystancją amperomierza, jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_21Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 15.12.2021",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Funkcjonalność oscyloskopu z cyfrowym luminoforem (DPO) jest niezbędna do: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_21Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 15.12.2021",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Amperomierz cyfrowy wskazał wartość 1, 3002 mA, a obliczona według wzorów podanych w specyﬁkacji nie- pewność graniczna wyniosła przed zaokrągleniem 10, 323... µA. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_21Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 15.12.2021",
+"l": "E",
+"a": [
+1,
+2,
+3
+],
+"stem": "1p. Pomiar napięcia U = 10 V będzie obarczony najmniejszą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_21Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 15.12.2021",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Które zdanie jest prawdziwe dla cyfrowego przyrządu pomiarowego mierzącego dodatnie wartości wielkości X: ",
+"lab": "Własności niepewności przyrządów cyfrowych"
+},
+{
+"file": "PELP1_21Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 15.12.2021",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. Mierzone pośrednio napięcie opisane jest wzorem U = I(R1 + R2). Zmierzono wielkości składowe: I = 5 mA, R1 = 1 kΩ, R2 = 4 kΩ, a wyniki pomiarów są nieskorelowane. Niepewności standardowe pomiarów składowych wynoszą odpowiednio u(I) = 0, 05 mA, u(R1) = 0, 03 kΩ, u(R2) = 0, 04 kΩ. Przed ostatecznym zaokrągle- niem niepewność u(U) wynosi w przybliżeniu ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów, napięcie U na źródle prądowym J2: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa napięcia U pochodząca od źródła J1 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_22Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 16.11.2022",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. Dwójnikiem bezźródłowym jest dwójnik: ",
+"lab": "Dwójnik bezźródłowy / źródłowy"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów na- pięcie U na źródle prądowym J1: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość, napięcie U ma wartość: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa prądu I pochodząca od źródła J1 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_22Z_A_2_klucz",
+"hdr": "Test 1 popr. PELP1, 21.12.2022",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. D to dioda idealna zwarciowo-rozwarciowa. Cha- rakterystyka dwójnika AB przedstawiona jest na rysunku: ",
+"lab": "Charakterystyka dwójnika z diodą idealną"
+},
+{
+"file": "PELP1_22Z_B_1_key",
+"hdr": "Test 2 PELP1, 14.12.2022",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność graniczna pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_22Z_B_1_key",
+"hdr": "Test 2 PELP1, 14.12.2022",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze napięć względem masy, względny błąd metody pobrania związany z niezerową rezystancją woltomie- rza jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_22Z_B_1_key",
+"hdr": "Test 2 PELP1, 14.12.2022",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Oscyloskop z bezpośrednim próbkowaniem (digital sampling oscilloscope): ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_22Z_B_1_key",
+"hdr": "Test 2 PELP1, 14.12.2022",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Amperomierz cyfrowy wskazał wartość 1, 1534 mA, a obliczona według wzorów podanych w specyﬁkacji nie- pewność graniczna wyniosła przed zaokrągleniem 32, 823... µA. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 PELP1, 14.12.2022 strona 2/2 ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_22Z_B_1_key",
+"hdr": "Test 2 PELP1, 14.12.2022",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Pomiar napięcia U = 12 V będzie obarczony najmniejszą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_22Z_B_1_key",
+"hdr": "Test 2 PELP1, 14.12.2022",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Które zdanie jest prawdziwe dla cyfrowego przyrządu pomiarowego mierzącego dodatnie wartości wielkości X: ",
+"lab": "Własności niepewności przyrządów cyfrowych"
+},
+{
+"file": "PELP1_22Z_B_1_key",
+"hdr": "Test 2 PELP1, 14.12.2022",
+"l": "G",
+"a": [
+1,
+2
+],
+"stem": "1p. Mierzona pośrednio moc dysponowana źródła opisana jest wzorem P = E2 T 4Rw . Zmierzono wielkości składowe: ET = 2 V, Rw = 4 kΩ, a wyniki pomiarów są nieskorelowane. Niepewność standardowa względna każdego z pomiarów składowych wynosi 5%. Przed ostatecznym zaokrągleniem niepewność ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_22Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 11.01.2023",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność standardowa pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_22Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 11.01.2023",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze prądów z amperomierzem wstawionym w miejsce pogrubionego połączenia, względny błąd metody pobrania związany z niezerową rezystancją amperomierza jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_22Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 11.01.2023",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Oscyloskop MSO (mixed signal oscilloscope): ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_22Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 11.01.2023",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Woltomierz cyfrowy wskazał wartość 8,627 V, a obliczona według wzorów podanych w jego specyﬁkacji nie- pewność graniczna wyniosła przed zaokrągleniem 114,3… mV. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_22Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 11.01.2023",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Który woltomierz da najmniejszą niepewność pomiaru napięcia 18 V? ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_22Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 11.01.2023",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia niepewność graniczną względną przyrządu cyfrowego w funkcji zakresu pomiarowego? Wielkość mierzona nie jest zmieniana i nie przekracza żadnego z nastawionych zakresów. Współczynniki opisujące niepewność czułości i niepewność zera się nie zmieniają wraz ze zmianą zakresu. ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_22Z_B_2_key",
+"hdr": "Test 2 popr. PELP1, 11.01.2023",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. Mierzona pośrednio moc wydzielana w oporze opisana jest wzorem P = UI. Zmierzono wielkości składowe: U = 2 V, I = 1 mA. Niepewność graniczne pomiarów składowych wynoszą odpowiednio ∆g(U) = 0, 08 V, ∆g(I) = 0, 12 mA. Przed ostatecznym zaokrągleniem obliczona niepewność standardowa pomiaru mocy u(P) wynosi w przybliżeniu ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów, napięcie U: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa prądu I pochodząca od źródła J1 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_23Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 8.11.2023",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. Dwójnikiem bezźródłowym jest dwójnik: ",
+"lab": "Dwójnik bezźródłowy / źródłowy"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów, prąd I: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa prądu I pochodząca od źródła E2 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_23Z_A_2_klucz",
+"hdr": "Test 1 PELP1, 20.12.2023",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. D to dioda idealna zwarciowo-rozwarciowa. Cha- rakterystyka dwójnika AB przedstawiona jest na rysunku: ",
+"lab": "Charakterystyka dwójnika z diodą idealną"
+},
+{
+"file": "PELP1_23Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 13.12.2023",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność złożna pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_23Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 13.12.2023",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze prądów z amperomierzem wstawio- nym w miejsce pogrubionego połączenia, względny błąd metody pobrania związany z niezerową rezystancją amperomierza jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_23Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 13.12.2023",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Tryb DC sprzężenia wejścia oscyloskopu może służyć do: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_23Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 13.12.2023",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Amperomierz cyfrowy wskazał wartość 1, 1536 mA, a obliczona według wzorów podanych w specyfikacji nie- pewność graniczna wyniosła przed zaokrągleniem 15, 236... µA. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_23Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 13.12.2023",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Pomiar napięcia U = 24 V będzie obarczony najmniejszą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 PELP1, 13.12.2023 strona 2/2 ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_23Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 13.12.2023",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia standardową niepewność względną przyrządu cyfrowego w funkcji modułu wartości zmierzonej? Przyjąć równomierny rozkład błędu i ustalony zakres pomiarowy przyrządu. ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_23Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 13.12.2023",
+"l": "G",
+"a": [
+1,
+2
+],
+"stem": "1p. Mierzona pośrednio moc opisana jest wzorem P = RI2. Zmierzono wielkości składowe: R = 2 kΩ, I = 4 mA, a wyniki pomiarów są nieskorelowane. Niepewność standardowa względna każdego z pomiarów składowych wynosi 5%. Przed ostatecznym zaokrągleniem niepewność ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_23Z_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 17.01.2023",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność standardowa pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_23Z_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 17.01.2023",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze napięć względem masy, względny błąd metody pobrania związany ze skończoną rezystancją woltomierza jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_23Z_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 17.01.2023",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Badany układ cyfrowy powinien generować powtarzalne sekwencje stanów logicznych. Aby stwierdzić czy podczas generacji wystepują rzadkie anomalie i co może być ich przyczyną najlepiej użyć oscyloskopu: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_23Z_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 17.01.2023",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Woltomierz cyfrowy wskazał wartość 10,483 V, a obliczona według wzorów podanych w jego specyfikacji nie- pewność graniczna wyniosła przed zaokrągleniem 314,3… mV. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_23Z_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 17.01.2023",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Który woltomierz da największą niepewność pomiaru napięcia 2 V? Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 popr. PELP1, 17.01.2023 strona 2/2 ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_23Z_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 17.01.2023",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Która metoda pomiaru rezytsancji może wykorzystywać wzorzec o wartości znacznie rózniącej się od wartości mierzonej ",
+"lab": "Mostek Wheatstone’a"
+},
+{
+"file": "PELP1_23Z_B_2_klucz",
+"hdr": "Test 2 popr. PELP1, 17.01.2023",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. Mierzone pośrednio napięcie opisane jest wzorem U = RI. Zmierzono wielkości składowe: R = 2 kΩ, I = 1 mA. Niepewność graniczne pomiarów składowych wynoszą odpowiednio ∆g(R) = 0, 12 kΩ, ∆g(I) = 0, 08 mA. Przed ostatecznym zaokrągleniem obliczona niepewność standardowa pomiaru mocy u(U) wynosi w przybliżeniu ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów, napięcie U: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "D",
+"a": [
+1,
+2
+],
+"stem": "1p. Przedstawiony czwórnik jest częścią większegu układu, a R > 0. Które z poniższych wyrażeń jest zawsze prawdzi- we: ",
+"lab": "Czwórnik"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Połączenie równoległe występuje między parami elementów: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Moc dysponowana źródła na lewo od zasisków AB wynosi: ",
+"lab": "Moc dysponowana dwójnika"
+},
+{
+"file": "PELP1_24Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 30.10.2024",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. Jaka jest wydajność prądowa JN w źródle Nortona równoważnym dwójnikowi AB, jeśli g = 2 mS? ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Źródło dostarcza 10 W mocy, a opór nieliniowy pobiera 6 W. Moc po- bieraną przez opór R można obliczyć na podstawie: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. W przedstawionym układzie o niezerowych i skończonych wartościach elementów, prąd I: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie R > 0 i mają skończoną war- tość, napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Wartośći prądów na rysunku wyrażono w amperach. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa prądu I pochodząca od źródła E1 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_24Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 11.12.2024",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. Siła elektromotoryczna ET w źródle Thevenina równoważnym dwójnikowi AB wynosi: ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_24Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 04.12.2024",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność standardowa pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_24Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 04.12.2024",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie, którego częsć przedstawiono na rysunku, opór Rx mie- rzony metodą techniczną ma wartość 10 kΩ, opór amperomierza 1 Ωa woltomierza 1 MΩ. Względny błąd systematyczny pomiaru oporu wynosi w przybliżeniu ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_24Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 04.12.2024",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Funkcjonalność oscyloskopu z cyfrowym luminoforem (DPO) jest niezbędna do: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_24Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 04.12.2024",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Amperomierz cyfrowy wskazał wartość 3, 6512 mA, a obliczona według wzorów podanych w specyfikacji nie- pewność graniczna wyniosła przed zaokrągleniem 35, 367... µA. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_24Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 04.12.2024",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Pomiar napięcia U = 18 V będzie obarczony najmniejszą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 PELP1, 04.12.2024 strona 2/2 ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_24Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 04.12.2024",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Które zdanie jest prawdziwe dla cyfrowego przyrządu pomiarowego mierzącego dodatnie wartości wielkości X: ",
+"lab": "Własności niepewności przyrządów cyfrowych"
+},
+{
+"file": "PELP1_24Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 04.12.2024",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Mierzona pośrednio moc opisana jest wzorem P = U 2 R . Zmierzono wielkości składowe: R = 1 kΩz niepewnością graniczną ∆g(R) = 10 Ωoraz U = 4 V z niepewnością graniczną ∆g(U) = 0, 08 V a wyniki pomiarów są nieskorelowane. Przed ostatecznym zaokrągleniem niepewność względna urel(P) wynosi w przybliżeniu ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_24Z_B_2_klucz",
+"hdr": "Test 2 PELP1, 18.12.2023",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność rozszerzona pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_24Z_B_2_klucz",
+"hdr": "Test 2 PELP1, 18.12.2023",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W mostku Wheatstone’a do pomiaru oporu Rx zastosowano opor- nik dekadowy R0 = 0...10 kΩ. Jak należy dobrać opory R1 i R2 aby uzyskać zakres pomiarowy 0...20 Ω ",
+"lab": "Mostek Wheatstone’a"
+},
+{
+"file": "PELP1_24Z_B_2_klucz",
+"hdr": "Test 2 PELP1, 18.12.2023",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Tryb AC sprzężenia wejścia oscyloskopu jest niezbędny do: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_24Z_B_2_klucz",
+"hdr": "Test 2 PELP1, 18.12.2023",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Woltomierz cyfrowy wskazał wartość 9,632 V, a obliczona według wzorów podanych w jego specyfikacji nie- pewność graniczna wyniosła przed zaokrągleniem 34,36… mV. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_24Z_B_2_klucz",
+"hdr": "Test 2 PELP1, 18.12.2023",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Pomiar napięcia U = 12 V będzie obarczony najmniejszą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 PELP1, 18.12.2023 strona 2/2 ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_24Z_B_2_klucz",
+"hdr": "Test 2 PELP1, 18.12.2023",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia standardową niepewność względną przyrządu cyfrowego w funkcji modułu wartości zmierzonej? Przyjąć równomierny rozkład błędu i ustalony zakres pomiarowy przyrządu. ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_24Z_B_2_klucz",
+"hdr": "Test 2 PELP1, 18.12.2023",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Mierzona pośrednio napięcie opisane jest wzorem U = E −RI. Zmierzono wielkości składowe: E = 10 V, R = 2 kΩ, I = 1 mA, a wyniki pomiarów są nieskorelowane. Niepewność graniczna względna każdego z pomiarów składowych wynosi 1%. Przed ostatecznym zaokrągleniem niepewność u(U) wynosi w przybliżeniu ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. Element nieliniowy o charakterystyce przedstawionej na rysunku pod- łączono do idealnego źródła prądowego o wydajności 3 mA, tak, że przez element płynie prąd. Opór statyczny i dynamiczny w punkcie pra- cy wynoszą w przybliżeniu: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie o niezerowych wartościach elementów, napięcie U na źródle prądowym J2: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Jeśli opory R1 i R2 mają skończoną wartość to napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenia I1 i I2 są równe. Jaką mają wartość? ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Połączenie równoległe występuje między parami elementów: ",
+"lab": "Rozpoznawanie połączeń (szeregowo/równolegle, gwiazda/trójkąt)"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby w oporze tym wydzielała się maksymalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_25Z_A_1_klucz",
+"hdr": "Test 1 PELP1, 5.11.2025",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. Jaka jest wydajność prądowa JN w źródle Nortona równoważnym dwójnikowi AB? ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Opór zastępczy dwójnika AB wynosi: ",
+"lab": "Opór zastępczy dwójnika (ze źródłami sterowanymi)"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "B",
+"a": [
+1
+],
+"stem": "1p. W układzie z oporem nieliniowym RN: ",
+"lab": "Punkt pracy elementu nieliniowego (Rs, Rd)"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "C",
+"a": [
+1,
+2
+],
+"stem": "1p. W przedstawionym układzie, gdzie R̸ = 0, napięcie U na źródle prą- dowym: ",
+"lab": "Napięcie/prąd źródła – wpływ parametrów"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Przy założeniu, że wszystkie opory mają skończoną wartość, napięcie U wynosi: ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Natężenie prądu I wynosi: ",
+"lab": "Prądowe prawo Kirchhoffa"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. W metodzie superpozycji składowa prądu I pochodząca od źródła J1 wynosi: ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "G",
+"a": [
+1
+],
+"stem": "2p. Wartość oporu R została dobrana tak, aby wydzielała się w nim mak- symalna możliwa moc. Moc ta wynosi: ",
+"lab": "Moc maksymalna wydzielana w R (dopasowanie)"
+},
+{
+"file": "PELP1_25Z_A_2_klucz",
+"hdr": "Test 1 - poprawa PELP1, 17.12.2025",
+"l": "H",
+"a": [
+1
+],
+"stem": "1p. Dwójnikiem bezźródłowym jest dwójnik: ",
+"lab": "Dwójnik bezźródłowy / źródłowy"
+},
+{
+"file": "PELP1_25Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 10.12.2025s",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność rozszerzona pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_25Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 10.12.2025s",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze prądów I1, I2, I3, I4 względny błąd me- tody pobrania, związany z niezerową rezystancją amperomierza, jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_25Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 10.12.2025s",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Do czego służy tryb AC sprzężenia wejścia oscyloskopu? ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_25Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 10.12.2025s",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Amperomierz cyfrowy wskazał wartość 5, 1820 mA, a obliczona według wzorów podanych w specyfikacji nie- pewność graniczna wyniosła przed zaokrągleniem 4, 187... µA. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 PELP1, 10.12.2025s strona 2/2 ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_25Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 10.12.2025s",
+"l": "E",
+"a": [
+1,
+2
+],
+"stem": "2p. Pomiar napięcia U = 10 V będzie obarczony największą niepewnością graniczną, gdy zostanie wykonany wol- tomierzem ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_25Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 10.12.2025s",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Który wykres przedstawia standardową niepewność względną przyrządu cyfrowego w funkcji modułu wartości zmierzonej? Przyjąć równomierny rozkład błędu i ustalony zakres pomiarowy przyrządu. ",
+"lab": "Wykresy niepewności przyrządu cyfrowego"
+},
+{
+"file": "PELP1_25Z_B_1_klucz",
+"hdr": "Test 2 PELP1, 10.12.2025s",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. Mierzone pośrednio napięcie opisane jest wzorem U = RI. Zmierzono wielkości składowe: R = 2 kΩ, I = 1 mA. Niepewność graniczne pomiarów składowych wynoszą odpowiednio ∆g(R) = 0, 12 kΩ, ∆g(I) = 0, 08 mA. Przed ostatecznym zaokrągleniem obliczona niepewność standardowa pomiaru mocy u(U) wynosi w przybliżeniu ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_25Z_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 14.01.2026",
+"l": "A",
+"a": [
+1
+],
+"stem": "1p. Niepewność złożna pomiaru ",
+"lab": "Pojęcia: niepewność i błąd"
+},
+{
+"file": "PELP1_25Z_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 14.01.2026",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. Przy bezpośrednim pomiarze napięć względem masy, względny błąd metody pobrania związany z niezerową rezystancją woltomie- rza jest co do modułu: ",
+"lab": "Metoda techniczna i błąd metody"
+},
+{
+"file": "PELP1_25Z_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 14.01.2026",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Przy braku innych zmian, zwiększenie częstości próbkowania przetwornika ADC oscyloskopu cyfrowego skutkuje: ",
+"lab": "Oscyloskop – budowa, tryby, ADC"
+},
+{
+"file": "PELP1_25Z_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 14.01.2026",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. Woltomierz cyfrowy wskazał wartość 9,6328 V, a obliczona według wzorów podanych w jego specyfikacji nie- pewność graniczna wyniosła przed zaokrągleniem 14,36… mV. Poprawnie zaokrąglony wynik końcowy pomiaru wynosi: ",
+"lab": "Zaokrąglanie wyniku pomiaru"
+},
+{
+"file": "PELP1_25Z_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 14.01.2026",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. Który woltomierz da największą niepewność pomiaru napięcia 2 V? Ciąg dalszy pytania na następnej stronie… === PAGE 2 === KLUCZ …c.d. pytania z poprzedniej strony Test 2 - poprawa PELP1, 14.01.2026 strona 2/2 ",
+"lab": "Dobór przyrządu i zakresu"
+},
+{
+"file": "PELP1_25Z_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 14.01.2026",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Które zdanie jest prawdziwe dla cyfrowego przyrządu pomiarowego mierzącego dodatnie wartości wielkości X: ",
+"lab": "Własności niepewności przyrządów cyfrowych"
+},
+{
+"file": "PELP1_25Z_B_2_klucz",
+"hdr": "Test 2 - poprawa PELP1, 14.01.2026",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. Mierzone pośrednio napięcie U opisane jest modelem U = E −RI. Zmierzono wielkości składowe: E = 10 V, R = 1 kΩ, I = 5 mA. Niepewność standardowa względna każdego z tych pomiarów składowych wynosi 1 %. Niepewność ",
+"lab": "Niepewność złożona – rachunek"
+},
+{
+"file": "PELP1_demo_A",
+"hdr": "Kolokwium wykładowe 1 (przykład) PELP1, 23.10.2019",
+"l": "A",
+"a": [
+1
+],
+"stem": "2p. 2 Ω 10 Ω 6 V 1 A U Ile wynosi napięcie U w obwodzie przedstawionym na rysunku? ",
+"lab": "Napięcie w obwodzie (obliczenia)"
+},
+{
+"file": "PELP1_demo_A",
+"hdr": "Kolokwium wykładowe 1 (przykład) PELP1, 23.10.2019",
+"l": "B",
+"a": [
+1
+],
+"stem": "2p. 10 V 12 Ω 6 Ω 4 Ω 8 V I Jeżeli w obwodzie przedstawionym na rysunku zastosujemy zasadę superpo- zycji, to jaki będzie wkład do natężenia prądu I, płynącego przez opór 6 Ω, pochodzący od źródła 8 V? Odpowiedzi zostały zaokrąglone do dwóch cyfr po przecinku. ",
+"lab": "Zasada superpozycji"
+},
+{
+"file": "PELP1_demo_A",
+"hdr": "Kolokwium wykładowe 1 (przykład) PELP1, 23.10.2019",
+"l": "C",
+"a": [
+1
+],
+"stem": "1p. Dwa idealne źródła napięciowe połączone równolegle ",
+"lab": "Łączenie źródeł idealnych"
+},
+{
+"file": "PELP1_demo_A",
+"hdr": "Kolokwium wykładowe 1 (przykład) PELP1, 23.10.2019",
+"l": "D",
+"a": [
+1
+],
+"stem": "1p. I2 I1 I3 5 V 10 V 3 Ω 7 Ω 10 Ω A Które równanie opisuje węzeł A? ",
+"lab": "Równania Kirchhoffa (węzeł / oczko)"
+},
+{
+"file": "PELP1_demo_A",
+"hdr": "Kolokwium wykładowe 1 (przykład) PELP1, 23.10.2019",
+"l": "E",
+"a": [
+1
+],
+"stem": "1p. 6 A 90 Ω 2 A 10 Ω Dwójnik przedstawiony na rysunku jest równoważny: ",
+"lab": "Równoważnik Thévenina / Nortona"
+},
+{
+"file": "PELP1_demo_A",
+"hdr": "Kolokwium wykładowe 1 (przykład) PELP1, 23.10.2019",
+"l": "F",
+"a": [
+1
+],
+"stem": "1p. Które z poniższych stwierdzeń jest zawsze prawdziwe dla różnych oporów połączonych szeregowo w obwodzie prądu stałego? ",
+"lab": "Moc w połączeniach szereg./równol."
+},
+{
+"file": "PELP1_demo_A",
+"hdr": "Kolokwium wykładowe 1 (przykład) PELP1, 23.10.2019",
+"l": "G",
+"a": [
+1
+],
+"stem": "1p. Zasada Tellegena obowiązujetylko w obwodach: ",
+"lab": "Zasada Tellegena"
+}
+]

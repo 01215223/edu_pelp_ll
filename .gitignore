@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# produkt pośredni budowy PDF (generowany przez build.py --pdf-src)
+kompendium/_pdf_source.html
