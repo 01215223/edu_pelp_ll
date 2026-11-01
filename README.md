@@ -33,6 +33,26 @@ Wersja do przeglądania: **`szybkie/index.html`**.
 
 Szczegóły: [`szybkie/README.md`](szybkie/README.md).
 
+## Teoria obwodów z omówionymi zadaniami (wersja 2 kompendium)
+
+➡️ **`teoria/teoria.pdf`** — 27 stron A4: **cała teoria obwodów Testu 1** oparta na
+prawdziwych pytaniach z kluczy. Wersja do przeglądania: **`teoria/index.html`**.
+
+* 8 rozdziałów teorii: element skupiony, prawa Kirchhoffa i łączenie źródeł,
+  superpozycja, dwójniki i źródła sterowane, Thévenin/Norton/dopasowanie,
+  elementy nieliniowe, dioda, moc,
+* **51 wycinków oryginalnych pytań** z kluczy (rysunek + pełna treść + wszystkie
+  odpowiedzi z pogrubioną prawidłową),
+* do każdego pytania **omówienie odpowiedzi**: dlaczego zaznaczona jest prawidłowa,
+  skąd biorą się poszczególne dystraktory i jak sprawdzić wynik w kilka sekund,
+* omówione także warianty z terminów poprawkowych (`A_2`), których nie ma
+  w wersji podstawowej,
+* opisy **niespójności w kluczach** (kilka odpowiedzi prawidłowych, sporne
+  pytanie o dwójnik bezźródłowy) — bez „naprawiania” kluczy,
+* aneks: **wszystkie 132 pytania Testu 1** z 17 kluczy (pytanie → numer odpowiedzi).
+
+Szczegóły: [`teoria/README.md`](teoria/README.md).
+
 ## Pliki źródłowe
 
 `PELP1_*.pdf` — klucze odpowiedzi (dane wejściowe). Nazwa pliku koduje test:
@@ -53,6 +73,7 @@ cd build
 python3 make_crops.py      # wycinki zadań -> szybkie/zadania/
 python3 build_szybkie.py   # szybkie/index.html + źródło PDF
 python3 mkpdf.py ../szybkie/_pdf_source.html ../szybkie/szybkie.pdf ../szybkie
+python3 build_teoria.py --pdf   # teoria/index.html + teoria/teoria.pdf
 python3 figures.py
 python3 build.py --pdf-src
 python3 mkpdf.py

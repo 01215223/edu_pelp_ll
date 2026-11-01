@@ -22,6 +22,9 @@ HTML = os.path.join(KOMP, "index.html")
 SZYB = os.path.join(ROOT, "szybkie")
 SZYB_MD = os.path.join(SZYB, "szybkie.md")
 SZYB_HTML = os.path.join(SZYB, "index.html")
+TEOR = os.path.join(ROOT, "teoria")
+TEOR_MD = os.path.join(TEOR, "teoria.md")
+TEOR_HTML = os.path.join(TEOR, "index.html")
 
 problems: list[str] = []
 
@@ -82,6 +85,9 @@ def main() -> int:
     # ----------------------------------------- 6. dokument „szybkie rozwiązywanie”
     check_szybkie()
 
+    # ------------------------------- 7. dokument „teoria + omówione zadania”
+    check_teoria()
+
     # ----------------------------------------------------------------- raport
     n_boxes = body.count('class="box')
     print("testów: %d, pytań: %d, rysunków: %d, ramek: %d, wzorów: %d"
@@ -93,6 +99,80 @@ def main() -> int:
         return 1
     print("OK — brak problemów.")
     return 0
+
+
+def check_teoria() -> None:
+    """Sprawdza teoria/teoria.md + HTML: wycinki, przypisy do kluczy, aneks."""
+    if not os.path.exists(TEOR_MD):
+        problems.append("brak teoria/teoria.md")
+        return
+    md = open(TEOR_MD, encoding="utf-8").read()
+    html = open(TEOR_HTML, encoding="utf-8").read()
+    body = html[html.find("<main>"): html.find("</main>")]
+    rows = json.load(open(os.path.join(HERE, "bank.json"), encoding="utf-8"))
+    known = {(r["file"], r["l"]): r["a"] for r in rows}
+
+    if md.count(":::") % 2:
+        problems.append("teoria: niedomknięte ramki :::")
+    if ":::" in body:
+        problems.append("teoria: literalne ::: w treści")
+    if "\x00" in body:
+        problems.append("teoria: niepodmienione placeholdery wzorów")
+    if 'class="katex-error"' in html or 'class="math-error"' in html:
+        problems.append("teoria: wzór, którego KaTeX nie potrafi zrenderować")
+    txt = re.sub(r"<[^>]+>", " ", body)
+    if "**" in txt:
+        problems.append("teoria: nieprzetworzone pogrubienia (**)")
+    if "$" in txt:
+        problems.append("teoria: surowy $ w treści (wzór poza KaTeX-em)")
+    if "pytania na następnej stronie" in txt:
+        problems.append("teoria: w wycinku został stopka „Ciąg dalszy pytania…”")
+
+    # wycinki: plik istnieje + pytanie istnieje w kluczu + numer odpowiedzi się zgadza
+    used = set()
+    for m in re.finditer(r"^::: figura zadania/(\S+?)_([A-H])\.png \| (.*)$", md, re.M):
+        f, lit, cap = m.group(1), m.group(2), m.group(3)
+        used.add(f"{f}_{lit}.png")
+        if not os.path.exists(os.path.join(TEOR, "zadania", f"{f}_{lit}.png")):
+            problems.append(f"teoria: brak pliku wycinka zadania/{f}_{lit}.png")
+        key = (f"PELP1_{f}_klucz", lit) if f.startswith("20") or f.startswith("19") else (f"PELP1_{f}", lit)
+        key = (f"PELP1_{f}", lit) if f.startswith("demo") else (f"PELP1_{f}_klucz", lit)
+        if key not in known:
+            problems.append(f"teoria: nie ma pytania {lit} w kluczu {key[0]}")
+            continue
+        cm = re.search(r"Klucz (\S+), pytanie ([A-H])", cap)
+        if cm:
+            if cm.group(1) != f:
+                problems.append(f"teoria: podpis {f}_{lit} mówi o kluczu {cm.group(1)}")
+            if cm.group(2) != lit:
+                problems.append(f"teoria: podpis {f}_{lit} mówi o pytaniu {cm.group(2)}")
+        bm = re.search(r"\*\*(\d)\*\*", cap)
+        if bm and int(bm.group(1)) not in known[key]:
+            problems.append(
+                f"teoria: podpis {f}·{lit} podaje odpowiedź {bm.group(1)}, "
+                f"a klucz ma {known[key]}"
+            )
+
+    figs_md = len(re.findall(r"^::: figura ", md, re.M))
+    figs_html = body.count("<figure>")
+    if figs_md != figs_html:
+        problems.append(f"teoria: rysunków w MD: {figs_md}, w HTML: {figs_html}")
+
+    # każdy klucz Testu 1 musi być przynajmniej raz zacytowany
+    cited = {m.group(1) for m in re.finditer(r"Klucz (\S+), pytanie", md)}
+    for f in sorted({r["file"] for r in rows if r["hdr"].startswith("Test 1")}):
+        short = f.replace("PELP1_", "").replace("_klucz", "")
+        if short not in cited:
+            problems.append(f"teoria: klucz {short} nie ma żadnego omówionego pytania")
+
+    n_boxes = len(re.findall(r'<div class="box ', body))
+    if n_boxes != body.count("box-title"):
+        problems.append("teoria: ramka bez tytułu")
+    if f"{len(rows)} pytań" in body or "Razem: 132 pytań" not in body:
+        problems.append("teoria: aneks nie zawiera pełnej listy pytań Testu 1")
+
+    n_katex = html.count('class="katex"')
+    print(f"teoria: ramek {n_boxes}, rysunków {figs_html}, wzorów {n_katex}")
 
 
 def check_szybkie() -> None:
