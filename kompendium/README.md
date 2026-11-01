@@ -9,22 +9,27 @@ w katalogu głównym repozytorium.
 ```
 kompendium/
 ├── index.html        ← GŁÓWNY PLIK: całe kompendium (otwórz w przeglądarce)
+├── kompendium.pdf    ← ta sama treść jako PDF (43 strony A4, gotowe do druku)
 ├── kompendium.md     ← źródło treści w Markdown
 ├── figury/           ← 13 rysunków SVG (schematy obwodów, wykresy, mostek…)
+│   └── png/          ← te same rysunki w PNG (dla wersji PDF)
 └── katex/            ← CSS + fonty do wzorów (wzory są renderowane statycznie)
 build/
 ├── build.py          ← generator: Markdown → HTML (+ aneks z bankiem pytań)
 ├── figures.py        ← generator rysunków SVG
 ├── svgkit.py         ← mini-biblioteka symboli schematów (IEC)
-├── katex_render.js   ← statyczne renderowanie wzorów (KaTeX)
+├── katex_render.js   ← statyczne renderowanie wzorów (KaTeX, wersja HTML)
+├── mathpng.py        ← renderowanie wzorów do PNG (matplotlib, wersja PDF)
+├── mkpdf.py          ← buduje kompendium.pdf z _pdf_source.html
+├── check.py          ← kontrola jakości (odsyłacze, wzory, rysunki, aneks)
 └── bank.json         ← 252 pytania z kluczy + klasyfikacja tematyczna
 ```
 
 ## Jak korzystać
 
 * **Czytanie:** otwórz `kompendium/index.html` w przeglądarce (działa offline, bez internetu).
-* **PDF:** w przeglądarce `Ctrl/⌘+P` → „Zapisz jako PDF”. Arkusz stylów ma osobną
-  wersję do druku (bez panelu bocznego, A4, z zachowaniem ramek i rysunków).
+* **PDF:** gotowy plik `kompendium.pdf` (43 strony A4). Można też drukować z przeglądarki:
+  `Ctrl/⌘+P` → „Zapisz jako PDF” (arkusz stylów ma osobną wersję do druku).
 * **Szukanie:** `Ctrl/⌘+F` w przeglądarce albo wyszukiwarka w §12 (bank pytań),
   z filtrem po temacie.
 
@@ -49,10 +54,13 @@ build/
 ## Odtworzenie/build
 
 ```bash
-# wymagania: python3 + pip install markdown pymupdf ; node + npm install katex
+# wymagania: python3 + pip install markdown pymupdf matplotlib ; node + npm install katex
 cd build
-python3 figures.py     # regeneruje rysunki SVG
-python3 build.py       # buduje ../kompendium/index.html
+python3 figures.py             # regeneruje rysunki SVG (+ PNG przez node/resvg)
+python3 build.py               # buduje ../kompendium/index.html
+python3 build.py --pdf-src     # dodatkowo _pdf_source.html (wzory jako PNG)
+python3 mkpdf.py               # buduje ../kompendium/kompendium.pdf
+python3 check.py               # kontrola jakości
 ```
 
 `build.py` wstawia do treści dwa automatyczne aneksy: mapę tematów (`<!--TOPICMAP-->`)

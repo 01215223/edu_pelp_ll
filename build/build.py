@@ -94,12 +94,19 @@ def protect_math(text: str):
     return MATH_RE.sub(repl, text), store
 
 
-def render_math(store: list[str]) -> list[str]:
-    """Renderuje wzory do HTML KaTeX-a (statycznie, bez JS w przeglądarce)."""
+def render_math(store: list[str], mode: str = "katex") -> list[str]:
+    """Renderuje wzory statycznie (bez JS w przeglądarce).
+
+    mode="katex" — HTML+CSS KaTeX-a (wersja do przeglądarki),
+    mode="img"   — PNG przez matplotlib mathtext (wersja do PDF).
+    """
     src, dst = "/tmp/_math_in.json", "/tmp/_math_out.json"
     with open(src, "w") as f:
         json.dump(store, f, ensure_ascii=False)
-    subprocess.run(["node", os.path.join(HERE, "katex_render.js"), src, dst], check=True)
+    if mode == "katex":
+        subprocess.run(["node", os.path.join(HERE, "katex_render.js"), src, dst], check=True)
+    else:
+        subprocess.run([sys.executable, os.path.join(HERE, "mathpng.py"), src, dst], check=True)
     return json.load(open(dst))
 
 
@@ -122,6 +129,11 @@ ICI = {
 }
 
 
+def md_inline(text: str) -> str:
+    """Minimalna obsługa **pogrubień** w tytułach ramek."""
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+
+
 def boxes_and_figures(text: str) -> str:
     out = []
     stack = []
@@ -132,7 +144,8 @@ def boxes_and_figures(text: str) -> str:
             label, cls = ICI[kind]
             head = title or label
             out.append(f'<div class="box {cls}" markdown="1">')
-            out.append(f'<p class="box-title">{head}</p>')
+            out.append(f'<p class="box-title">{md_inline(head)}</p>')
+            out.append("")
             stack.append(kind)
             continue
         if m and m.group(1) == "figura":
@@ -140,8 +153,10 @@ def boxes_and_figures(text: str) -> str:
             spec = re.sub(r"\s*:::\s*$", "", spec)
             path, _, cap = spec.partition("|")
             path, cap = path.strip(), cap.strip()
+            alt = re.sub(r"\$[^$]*\$", "", cap)  # alt bez LaTeX-a
+            alt = re.sub(r"\s{2,}", " ", alt).replace('"', "&quot;").strip()
             out.append(
-                f'<figure><img src="{path}" alt="{cap}" loading="lazy">'
+                f'<figure><img src="{path}" alt="{alt}" loading="lazy">'
                 f"<figcaption>{cap}</figcaption></figure>"
             )
             continue
@@ -150,6 +165,12 @@ def boxes_and_figures(text: str) -> str:
                 stack.pop()
                 out.append("</div>")
             continue
+        # listy i cytaty muszą zaczynać się od pustej linii, inaczej Markdown
+        # wciąga je do poprzedniego akapitu (widoczne jako literalne "* ")
+        if re.match(r"^(\s*)([*+-]|\d+\.)\s", line):
+            prev = next((x for x in reversed(out) if x.strip()), "")
+            if prev and not re.match(r"^(\s*)([*+-]|\d+\.)\s", prev) and not prev.startswith(("|", "<")):
+                out.append("")
         out.append(line)
     assert not stack, f"niedomknięte ramki: {stack}"
     return "\n".join(out)
@@ -344,6 +365,8 @@ figcaption{color:var(--muted); font-size:12.8px; margin-top:8px; text-align:cent
 .box.przyklad h4{margin-top:.2em}
 /* ---------------- katex ---------------- */
 .katex{font-size:1.04em}
+.katex-mathml{display:none}
+.katex-html{white-space:nowrap}
 .katex-display{margin:.85em 0; overflow-x:auto; overflow-y:hidden; padding:2px 0}
 /* ---------------- badge / appendix ---------------- */
 .badge{display:inline-block; background:#e8f0f8; color:#0b5fa5; border-radius:20px;
@@ -475,7 +498,7 @@ document.addEventListener('DOMContentLoaded', function(){
 """
 
 
-def main():
+def build(mode: str, out_path: str) -> str:
     text = open(SRC, encoding="utf-8").read()
 
     # wklejenie automatycznych aneksów
@@ -499,7 +522,7 @@ def main():
         },
     )
     html = md.convert(text)
-    html = restore_math(html, render_math(store))
+    html = restore_math(html, render_math(store, mode))
 
     # hero section: first h1 -> hero block
     m = re.search(r"<h1[^>]*>(.*?)</h1>(.*?)(?=<h2)", html, re.S)
@@ -523,9 +546,30 @@ def main():
         if f.endswith(".woff2"):
             shutil.copy(os.path.join(KATEX_SRC, "fonts", f), os.path.join(fdir, f))
 
-    with open(OUT, "w", encoding="utf-8") as f:
+    if mode == "img":
+        # MuPDF Story nie rysuje SVG przez <img> — podmieniamy na PNG 2x
+        png_dir = os.path.join(KOMP, "figury", "png")
+        os.makedirs(png_dir, exist_ok=True)
+        for name in os.listdir(os.path.join(KOMP, "figury")):
+            if name.endswith(".svg"):
+                out_png = os.path.join(png_dir, name[:-4] + ".png")
+                subprocess.run(
+                    ["node", "/home/user/buildtools/svg2png.js",
+                     os.path.join(KOMP, "figury", name)], check=True,
+                    stdout=subprocess.DEVNULL)
+                shutil.move("/tmp/" + name[:-4] + ".png", out_png)
+        page = page.replace('src="figury/', 'src="figury/png/')
+        page = page.replace('.svg"', '.png"')
+    with open(out_path, "w", encoding="utf-8") as f:
         f.write(page)
-    print(f"OK -> {OUT}  ({len(page)/1024:.0f} kB)")
+    print(f"OK -> {out_path}  ({len(page)/1024:.0f} kB)")
+    return page
+
+
+def main():
+    build("katex", OUT)
+    if "--pdf-src" in sys.argv:
+        build("img", os.path.join(KOMP, "_pdf_source.html"))
 
 
 if __name__ == "__main__":

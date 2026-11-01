@@ -7,6 +7,7 @@ Repozytorium zawiera klucze odpowiedzi do kolokwium wykładowego z przedmiotu
 ## Kompendium
 
 ➡️ **`kompendium/index.html`** — otwórz w przeglądarce (działa offline).
+Do druku: **`kompendium/kompendium.pdf`** (43 strony A4).
 
 * 12 rozdziałów: od konwencji i praw Kirchhoffa, przez elementy nieliniowe,
   aż po metrologię, mostek Wheatstone'a i oscyloskop,
@@ -34,6 +35,10 @@ Szczegóły, struktura katalogów i sposób ponownego zbudowania dokumentu:
 ## Odtworzenie kompendium
 
 ```bash
-pip install markdown pymupdf     # + node: npm install katex
-cd build && python3 figures.py && python3 build.py
+pip install markdown pymupdf matplotlib    # + node: npm install katex @resvg/resvg-js
+cd build
+python3 figures.py
+python3 build.py --pdf-src
+python3 mkpdf.py
+python3 check.py
 ```

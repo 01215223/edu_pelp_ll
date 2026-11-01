@@ -26,6 +26,10 @@ W kluczach źródłowych **każde pytanie może mieć więcej niż jedną odpowi
 W repozytorium były wyłącznie **klucze odpowiedzi** (35 plików PDF, 2019–2026) — bez slajdów wykładowych i bez treści zadań poza pytaniami testowymi. Dlatego teoria została odtworzona tak, aby **pokryć dokładnie te kompetencje, które sprawdzają pytania**: każdy wzór, reguła i przykład ma odpowiednik w co najmniej jednym pytaniu z kluczy (w ramkach „Jak to jest pytane” podaję liczbę pytań i schemat). Tam, gdzie klucz dopuszcza kilka odpowiedzi lub sam jest niespójny (dwa sposoby liczenia niepewności, inny zapis tego samego wyniku), zaznaczam to wprost — bo na kolokwium właśnie takie niuanse decydują o punkcie.
 :::
 
+::: ciekawostka Dwie wersje tego samego tekstu
+Obok tego pliku (`index.html`, wersja do przeglądania z wyszukiwarką i filtrowaniem banku pytań) leży **`kompendium.pdf`** — 43-stronicowy wydruk A4 z tym samym tekstem, gotowy do druku lub czytania na telefonie. Oba pliki powstają z jednego źródła (`kompendium.md`), więc treść jest identyczna.
+:::
+
 ::: metoda Jak pracować z tym tekstem
 1. Przeczytaj rozdział teoretyczny i **przelicz samodzielnie** każdy wzór na prostym przykładzie liczbowym.
 2. Zajrzyj do §12, odfiltruj pytania z danego tematu (jest tam wyszukiwarka), przeczytaj treści i ustal, *jaki schemat rozumowania* kryje się za pytaniem.
@@ -333,7 +337,7 @@ Procedura (5 kroków):
 ::: figura figury/dzielniki.svg | Rys. 3.1. Najczęstszy schemat superpozycji: po wyłączeniu $E$ zostaje dzielnik prądu — składowa prądu od $J$ ma postać $\pm J\frac{R_2}{R_1+R_2}$ (lub $\pm J\frac{R_1}{R_1+R_2}$ — zależnie od tego, o który prąd pytamy).
 :::
 
-::: klucz Jak to jest pytane (13 pytań w bazie)
+::: klucz Jak to jest pytane (14 pytań w bazie)
 * „Jaki jest wkład do natężenia prądu $I$ pochodzący od źródła $8$ V?” → wyłącz drugie źródło, policz prąd w gałęzi z $6\ \Omega$, podaj **z nazwą źródła**, nie sumę.
 * „Składowa napięcia $U$ pochodząca od źródła $J$ wynosi…” → odpowiedzi mają postać $\pm J\frac{R_2}{R_1+R_2}$, $\pm J\frac{R_1R_2}{R_1+R_2}$ lub $0$. Zero pojawia się, gdy źródło jest „zwarte” przez idealne źródło napięciowe w równoległej gałęzi — wtedy jego wkład do danego napięcia jest zerowy.
 * Dystraktor „w tym obwodzie nie wolno stosować zasady superpozycji” jest prawidłowy **tylko** dla obwodów z elementem nieliniowym (i właśnie dlatego w zadaniach z oporem nieliniowym jest poprawną odpowiedzią).
@@ -601,7 +605,7 @@ Zdania fałszywe (dystraktory): „niepewność to średnia wartość błędu”
 | **Podstawienia** | podmiana obiektu na wzorzec przy tym samym wskazaniu | kalibracja wagą |
 | **Wychyłowa** | odczyt wychylenia (obarczona błędem metody pobrania) | woltomierz analogowy |
 
-::: klucz Jak to jest pytane (13 pytań w bazie)
+::: klucz Jak to jest pytane (1 pytanie wprost o metodę + 21 pytań o błąd metody pobrania)
 Trzy powtarzalne pytania (i ich odpowiedzi z kluczy):
 
 1. *„Pomiar oporu metodą techniczną (U, I, prawo Ohma) to pomiar…”* → **pośredni złożony (pochodny)**; dystraktory: „pośredni prosty”, „skojarzeniowy”, „bezpośredni prosty”.
@@ -817,7 +821,7 @@ gdzie $R_T$ to rezystancja zastępcza widziana z zacisków woltomierza. Błąd j
 * **Amperomierz** włączony szeregowozwiększa rezystancję gałęzi: $\delta I\approx-\dfrac{R_A}{R_A+R_{\text{gałęzi}}}$ — błąd największy w gałęzi o **najmniejszej** rezystancji.
 :::
 
-::: klucz Jak to jest pytane (14 pytań w bazie)
+::: klucz Jak to jest pytane (21 pytań w bazie)
 Powtarzalny schemat: drabinka rezystorów (np. $R, 2R, R, 2R$), pytanie „dla którego węzła/gdzie błąd metody pobrania jest największy/najmniejszy”. Rozwiązanie: **policz rezystancję zastępczą widzianą z punktu pomiaru** (przy wyłączonym źródle) i wybierz węzeł o skrajnej wartości. W pytaniach o amperomierz — wybierz gałąź o najmniejszej rezystancji.
 :::
 

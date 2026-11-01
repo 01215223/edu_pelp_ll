@@ -60,15 +60,15 @@ def f_szereg_rown():
     f = Fig(520, 175)
     # --- szeregowe
     f.wire((45, 45), (60, 45))
-    f.res(60, 45, 130, 45, "R", "1", side=-1)
+    f.res(60, 45, 130, 45, "R", "1", side=1)
     f.wire((130, 45), (145, 45))
-    f.res(145, 45, 215, 45, "R", "2", side=-1)
+    f.res(145, 45, 215, 45, "R", "2", side=1)
     f.wire((215, 45), (235, 45), (235, 130), (20, 130), (45, 45)) if False else None
     f.wire((215, 45), (235, 45), (235, 130), (20, 130), (20, 45), (45, 45))
     f.node(20, 45)
     f.node(20, 130)
     f.arrow(20, 130, 20, 45, "U")
-    f.txt(130, 20, "szeregowo", "middle", 12, italic=True)
+    f.txt(130, 16, "szeregowo", "middle", 12, italic=True)
     f.txt(130, 158, "R = R₁ + R₂   I = const,  U dzieli się", "middle", 11)
 
     # --- równoległe
@@ -287,26 +287,31 @@ def f_metoda_techniczna():
 
 # ---------------------------------------- 9. niepewność przyrządu cyfrowego
 def f_niepewnosc():
-    f = Fig(430, 210)
-    ax_y = 170
-    # panel 1: Δg(x)
-    f.arrow(50, ax_y, 195, ax_y, "")
-    f.arrow(50, ax_y, 50, 30, "")
-    f.txt(190, 188, "|x|", "middle", 11, italic=True)
-    f.txt(38, 34, "Δg", "middle", 11, italic=True)
-    f.items.append('<line x1="50" y1="150" x2="180" y2="90" class="sym" stroke-width="2"/>')
-    f.items.append('<line x1="50" y1="150" x2="50" y2="90" class="sym" stroke-width="2" opacity="0"/>')
-    f.txt(115, 205, "Δg rośnie z |x|", "middle", 10)
+    f = Fig(520, 245)
+    ax_y = 175
 
-    # panel 2: δg(x)
-    f.arrow(265, ax_y, 410, ax_y, "")
-    f.arrow(265, ax_y, 265, 30, "")
-    f.txt(405, 188, "|x|", "middle", 11, italic=True)
-    f.txt(250, 34, "δg", "middle", 11, italic=True)
-    f.items.append('<path d="M285,45 C 320,140 350,158 395,163" class="sym" stroke-width="2"/>')
-    f.items.append('<line x1="285" y1="163" x2="395" y2="163" class="sym" stroke-dasharray="4 3" stroke-width="1"/>')
-    f.txt(392, 156, "a", "end", 10)
-    f.txt(330, 205, "δg maleje z |x|, dąży do a", "middle", 10)
+    def panel(x0, title, kind):
+        f.arrow(x0, ax_y, x0 + 150, ax_y, "")
+        f.arrow(x0, ax_y, x0, 32, "")
+        f.txt(x0 + 152, ax_y + 16, "|x|", "middle", 11, italic=True)
+        f.txt(x0 - 12, 36, kind, "end", 11, italic=True)
+        if kind == "Δg":
+            f.items.append(f'<line x1="{x0}" y1="152" x2="{x0+130}" y2="70" '
+                           f'stroke="#1f2937" fill="none" stroke-width="2"/>')
+            f.txt(x0 + 66, ax_y + 34, title, "middle", 10)
+        else:
+            f.items.append(f'<path d="M{x0+22},46 C {x0+62},140 {x0+95},160 {x0+140},167" '
+                           f'stroke="#1f2937" fill="none" stroke-width="2"/>')
+            f.items.append(f'<line x1="{x0+20}" y1="167" x2="{x0+140}" y2="167" '
+                           f'stroke="#7b8794" stroke-dasharray="4 3" stroke-width="1"/>')
+            f.txt(x0 + 143, 160, "a", "start", 10)
+            f.txt(x0 + 75, ax_y + 34, title, "middle", 10)
+
+    panel(60, "rośnie liniowo z |x|", "Δg")
+    panel(300, "maleje z |x|, dąży do a", "δg")
+    f.txt(60, 14, "niepewność graniczna (bezwzględna)", "start", 10, italic=True)
+    f.txt(300, 16, "niepewność graniczna względna", "start", 10, italic=True)
+    f.txt(260, 232, "przy ustalonym zakresie pomiarowym", "middle", 10, italic=True)
     return save("niepewnosc_wykresy.svg", f)
 
 
