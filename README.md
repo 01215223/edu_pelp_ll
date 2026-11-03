@@ -2,7 +2,9 @@
 
 Repozytorium zawiera klucze odpowiedzi do kolokwium wykładowego z przedmiotu
 **PELP1 (podstawy elektroniki i teoria obwodów)** — 35 plików PDF z lat 2019–2026
-(252 pytania) — oraz opracowane na ich podstawie **kompendium wiedzy**.
+(252 pytania) — oraz cztery opracowane na ich podstawie dokumenty do nauki:
+**kompendium**, **teorię z omówionymi pytaniami**, **szybkie rozwiązywanie
+zadań** i **komentarz do wykładów**.
 
 ## Kompendium
 
@@ -53,6 +55,27 @@ prawdziwych pytaniach z kluczy. Wersja do przeglądania: **`teoria/index.html`**
 
 Szczegóły: [`teoria/README.md`](teoria/README.md).
 
+## Komentarz do wykładów (W1–W5) — jak używać twierdzeń
+
+➡️ **`wyklady/wyklady.pdf`** — 37 stron A4: objaśnienia i przykłady do pięciu
+wykładów PELP1 (`PELP1_W1.pdf` … `PELP1_W5.pdf`). Wersja do przeglądania:
+**`wyklady/index.html`**.
+
+* przechodzi przez materiał wykład po wykładzie (elementy i strzałkowanie,
+  prawa Kirchhoffa, superpozycja i Tellegen, dwójniki i źródła sterowane,
+  ruchliwość źródeł i kompensacja, Thévenin/Norton/dopasowanie, elementy
+  nieliniowe i sygnały),
+* **każde twierdzenie jest użyte na liczbowym przykładzie** — nie tylko
+  streszczone: ten sam obwód odniesienia ($E_1=12$ V, $V_A=6$ V) rozwiązany
+  superpozycją, Théveninem i kompensacją, żeby było widać, że wynik musi
+  wyjść ten sam,
+* 7 pełnych przykładów „jak wybrać metodę” + 3 zadania do samodzielnego
+  policzenia (z odpowiedziami), 11 rysunków wektorowych,
+* ściąga: formułownik, **20 zdań-pułapek**, indeks 69 tematów (temat → slajd
+  wykładu → sekcja dokumentu).
+
+Szczegóły, struktura i sposób zbudowania: [`wyklady/README.md`](wyklady/README.md).
+
 ## Pliki źródłowe
 
 `PELP1_*.pdf` — klucze odpowiedzi (dane wejściowe). Nazwa pliku koduje test:
@@ -74,6 +97,9 @@ python3 make_crops.py      # wycinki zadań -> szybkie/zadania/
 python3 build_szybkie.py   # szybkie/index.html + źródło PDF
 python3 mkpdf.py ../szybkie/_pdf_source.html ../szybkie/szybkie.pdf ../szybkie
 python3 build_teoria.py --pdf   # teoria/index.html + teoria/teoria.pdf
+python3 figures_wyklady.py      # rysunki do wyklady/
+python3 build_wyklady.py --pdf  # wyklady/index.html + wyklady/wyklady.pdf
+python3 check_wyklady.py        # kontrola liczb i odsyłaczy w wyklady/
 python3 figures.py
 python3 build.py --pdf-src
 python3 mkpdf.py
