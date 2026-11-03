@@ -2,9 +2,10 @@
 
 Repozytorium zawiera klucze odpowiedzi do kolokwium wykładowego z przedmiotu
 **PELP1 (podstawy elektroniki i teoria obwodów)** — 35 plików PDF z lat 2019–2026
-(252 pytania) — oraz cztery opracowane na ich podstawie dokumenty do nauki:
+(252 pytania) — oraz pięć opracowanych dokumentów do nauki:
 **kompendium**, **teorię z omówionymi pytaniami**, **szybkie rozwiązywanie
-zadań** i **komentarz do wykładów**.
+zadań**, **komentarz do wykładów** oraz jego przystępną wersję wstępną
+**„Obwody po ludzku”**.
 
 ## Kompendium
 
@@ -76,6 +77,28 @@ wykładów PELP1 (`PELP1_W1.pdf` … `PELP1_W5.pdf`). Wersja do przeglądania:
 
 Szczegóły, struktura i sposób zbudowania: [`wyklady/README.md`](wyklady/README.md).
 
+## Obwody po ludzku — wykłady W1–W4 intuicyjnie (68 slajdów)
+
+➡️ **`po-ludzku/po-ludzku.pdf`** — 25 stron A4: sugestywne objaśnienia
+połączonego zestawu slajdów **`Wykład - slajdy.pdf`** (68 stron: W1 modele
+elementów, W2 prawa i zasady, W3 elementy zastępcze, W4 elementy
+nieliniowe/wzmacniacz operacyjny/moc). Wersja do przeglądania:
+**`po-ludzku/index.html`**.
+
+* kolejność odwrotna niż na slajdach: **najpierw obraz i intuicja**
+  (analogia wodna, potencjał jako wysokość, źródła jako „uparciuchy”),
+  potem wzór, na końcu zawsze przykład policzony do końca,
+* jeden obwód-przewodnik (baterie 9 V i 6 V, trzy opory po 2 Ω,
+  $U_A = 5$ V) rozwiązany równaniem węzłowym, superpozycją,
+  Théveninem i zweryfikowany kompensacją oraz bilansem mocy,
+* 11 własnych rysunków, „sprawdź się” po każdym wykładzie, 6 zadań
+  treningowych z odpowiedziami, 15 zdań-pułapek,
+* **indeks wszystkich 68 slajdów**: strona połączonego PDF-u → sekcja,
+* to warstwa wejściowa: po niej formalny `wyklady/` czyta się dużo łatwiej.
+  Sam plik slajdów nie jest załączony do repozytorium.
+
+Szczegóły: [`po-ludzku/README.md`](po-ludzku/README.md).
+
 ## Pliki źródłowe
 
 `PELP1_*.pdf` — klucze odpowiedzi (dane wejściowe). Nazwa pliku koduje test:
@@ -100,6 +123,9 @@ python3 build_teoria.py --pdf   # teoria/index.html + teoria/teoria.pdf
 python3 figures_wyklady.py      # rysunki do wyklady/
 python3 build_wyklady.py --pdf  # wyklady/index.html + wyklady/wyklady.pdf
 python3 check_wyklady.py        # kontrola liczb i odsyłaczy w wyklady/
+python3 figures_po_ludzku.py    # rysunki do po-ludzku/
+python3 build_po_ludzku.py --pdf # po-ludzku/index.html + po-ludzku/po-ludzku.pdf
+python3 check_po_ludzku.py       # kontrola liczb, rysunków i indeksu 68 slajdów
 python3 figures.py
 python3 build.py --pdf-src
 python3 mkpdf.py
